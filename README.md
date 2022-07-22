@@ -15,9 +15,7 @@ Once it is done, the committed programming files is downloaded and put into the 
 $ cmake --build build 
 $ cd build/bin
 $ ./sealexamples
-Important note: The two programming files- rawplain.cpp and encodersplain.cpp- should be updated based on the local directory of "all_data" folder.  
+Important note: The directory of two programming files- rawplain.cpp and encodersplain.cpp- should be updated based on the local directory of "all_data" folder. 
 ````
 
 The theoretically client and server are evaluated as two separate parties. However, the code contains both functionalities in the same main function, which could be separated programmatically if needed/required.   
-
-
