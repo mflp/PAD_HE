@@ -1,8 +1,6 @@
 # PAD_HE
 
-
-# Encrypted-Control
+# Private-Anomaly-Detection
 # Setup
 
-This project requires the emp-toolkit. Please install the Semihonest two party computation tool.
-
+This project requires the SEAL Version 3.6.2. Please install the SEAL with the mentioned dependencies <a href="http://www.something.com"> Something </a>
