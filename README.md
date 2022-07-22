@@ -12,11 +12,11 @@ The examples.cpp
 Once it is done, the committed programming files is downloaded and put into the "/SEAL/native/examples/". That is, the content of the "/SEAL/native/examples/" is filled with the programming files.). Then, following is done:
 
 ````
-$ mkdir build
-$ cd build
-$ cmake -DCMAKE_BUILD_TYPE=release ..
-$ make
-$ cd ..
+$ cmake --build build 
+$ cd build/bin
+$ ./sealexamples
 ````
+
+The theoretically client and server are evaluated as two separate parties. However, the code contains both functionalities in the same main function, which could be separated programmatically if needed/required.   
 
 
