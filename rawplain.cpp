@@ -449,12 +449,9 @@ void assignValMatrixDatabyFileRead(struct simulationMatrixData *smd, char * fold
 void create_SimulationMatrixData(struct simulationMatrixData *smd){
 
 	// Define folder paths 
-	//char * folderPath_y10_u2 	= "/home/mfcustben/SEAL_1/native/examples/ZZ_all_data/y10_u2";
-	char * folderPath_y10_u2 	= "/home/mfcustben/SEAL_1/native/examples/ZZZ_Final_HE_Correctness_Issue/Luis_Very_Last_25_03_2022/all_data/y10_u2";
-	char * folderPath_y20_u4 	= "/home/mfcustben/SEAL_1/native/examples/ZZZ_Final_HE_Correctness_Issue/Luis_Very_Last_25_03_2022/all_data/y20_u4";
-	char * folderPath_y50_u10 	= "/home/mfcustben/SEAL_1/native/examples/ZZZ_Final_HE_Correctness_Issue/Luis_Very_Last_25_03_2022/all_data/y50_u10";
-	// char * folderPath_y50_u10	= "/home/mfcustben/SEAL_1/native/examples/ZZ_all_data/y50_u10";
-	// char * folderPath_y250_u50	= "/home/mfcustben/SEAL_1/native/examples/ZZ_all_data/y250_u50";		
+	char * folderPath_y10_u2 	= "./all_data/y10_u2";
+	char * folderPath_y20_u4 	= "./all_data/y20_u4";
+	char * folderPath_y50_u10 	= "./all_data/y50_u10";
 
 	// Assign m, n dimensions  	
 	// assDimToSmd(smd, folderPath_y10_u2, 120); // Change here based on the used matrices
