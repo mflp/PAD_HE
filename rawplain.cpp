@@ -602,16 +602,7 @@ void initRemainVec(struct simulationMatrixData *smd){
 		smd->xexe[i][0] 	= smd->xx[i][0]; // x^p vector
 		smd->xpxp[i][0] 	= smd->xx[i][0]; // x^e vector
 		smd->One[i][0] 		= 1; 			 // Chebyshev Appx. One vector	
-	}
-
-	// Read measurement data - y vector 	
-	char y_MeasSensDir_y10_u2[1000000]; 
-	strcat(y_MeasSensDir_y10_u2, "/home/mfcustben/SEAL_1/native/examples/ZZ_Last_points/Approximation/0_PhD-SimulationData-m=2-n=10/0_Corresponding_Y_Matrix_Measurements/YMatrixContent_for_y10_u2_"); 
-	char y_MeasSensDir_y50_u10[1000000];
-	strcat(y_MeasSensDir_y50_u10, "/home/mfcustben/SEAL_1/native/examples/ZZ_Last_points/Approximation/0_PhD-SimulationData-m=2-n=10/0_Corresponding_Y_Matrix_Measurements/YMatrixContent_for_y50_u10_"); 
-	readYData(smd, y_MeasSensDir_y10_u2);
-	memset(y_MeasSensDir_y10_u2, 0, 100000);
-
+	}	
 } 
 
 /*
